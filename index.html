@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Practice</title>
+    <title>Gem Paint Co</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <img class="background-image" src="/images/unsplash_NTYYL9Eb9y8.png" alt="background image">
     <div class="container">
         <header>
             <nav>
                 <ul>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Discounts</a></li>
-                    <li><a href="#"><img src="./images/Vector.svg" alt="Company Logo"></a></li>
+                    <li><a href="#"><img src="./images/Vector.svg" alt="Company Logo" width="40"></a></li>
                     <li><a href="#">Our Partners</a></li>
                     <li><a href="#">About Us</a></li>
                 </ul>
@@ -20,33 +22,47 @@
         </header>
         <main>
             <section>
-                <h1>Products</h1>
-                <p>Affordable quality, every time</p>
+                <h1>products</h1>
+                <p>Affordable quality, every time.</p>
                 <div class="product-list">
                     <article>
-                        <img src="matte.jpg" alt="Matte Finish Product Image">
-                        <h2>Matte</h2>
+                        <div class="article-image">
+                            <div class="empty"></div>
+                        </div>
+                        <div class="article-text">
+                            <h2>Matte<span></span></h2>
+                        </div>
                         <p>A subtle but elegant finish for low-touch and delicate surfaces.</p>
                         <a href="#">Explore</a>
                     </article>
                     <article>
-                        <img src="semi-gloss.jpg" alt="Semi-Gloss Finish Product Image">
-                        <h2>Semi-Gloss</h2>
+                        <div class="article-image">
+                            <img class="secong-image" src="images/Group 4.svg" alt="Matte Finish Product Image">
+                        </div>   
+                        <div class="article-text">
+                            <h2>Semi-Gloss<span></span></h2>
+                        </div>                     
                         <p>Our signature finish for high-wear parts, details, and surfaces.</p>
                         <a href="#">Explore</a>
                     </article>
                     <article>
-                        <img src="high-gloss.jpg" alt="High-Gloss Finish Product Image">
-                        <h2>High-Gloss</h2>
-                        <p>An eye-catching shine best for metal and other smooth surfaces.</p>
+                        <div class="article-image">
+                            <img class="third-image" src="images/Group 4.svg" alt="Matte Finish Product Image">
+                            <img class="third-image-second-part" src="images/Group 3.svg" alt="Matte Finish Product Image">
+                            <img class="third-image-third-part" src="images/Group 3.svg" alt="Matte Finish Product Image">
+
+                        </div>
+                        <div class="article-text">
+                            <h2>High-Gloss<span></span></h2>
+                        </div>
+                        <p>An eye-stopping shine best for metal and other smooth surfaces.</p>
                         <a href="#">Explore</a>
                     </article>
                 </div>
             </section>
         </main>
         <footer>
-            <span>icon</span>
-            <p>Gem Paint Co</p>
+            <p>&copy; Gem Paint Co</p>
         </footer>
     </div>
 </body>
