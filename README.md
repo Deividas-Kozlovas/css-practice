@@ -1,4 +1,4 @@
-# Simple Bootstrap Landing Page for CSS Practice
+# Simple Landing Page for CSS Practice
 
 ## Overview
 
